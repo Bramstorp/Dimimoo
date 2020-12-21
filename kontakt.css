@@ -1,0 +1,89 @@
+.container-custom {
+  background: #ffffff;
+  width: 900px;
+  height: 650px;
+  margin: 5% auto;
+  position: relative;
+}
+.container-custom .map {
+  width: 45%;
+  float: left;
+}
+.container-custom .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.container-custom .contact-form .title {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+}
+.container-custom .contact-form .subtitle {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+}
+.container-custom .contact-form input,
+.container-custom .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #b7b7b7;
+}
+.container-custom .contact-form input::placeholder,
+.container-custom .contact-form textarea::placeholder {
+  color: #242424;
+}
+.container-custom .contact-form .btn-send {
+  background: rgb(114, 214, 114);
+  width: 180px;
+  height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 2% 8%;
+  border: none;
+}
+
+.container-custom .contact-form .btn-send:hover{
+  background-color: rgb(90, 168, 90);
+}
+
+.nav-text {
+  color: rgb(114, 214, 114);
+  text-decoration: none;
+}
+.nav-text:hover {
+  color: rgb(90, 168, 90);
+}
+
+#logo {
+  color: rgb(67, 124, 67);
+  text-decoration: none;
+}
+#logo:hover {
+  color: rgb(46, 87, 46);
+}
+
+#front-img {
+  max-width: 100%;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#sticky-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(114, 214, 114) !important;
+}
