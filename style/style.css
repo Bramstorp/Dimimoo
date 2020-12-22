@@ -40,12 +40,13 @@
   border-color: rgb(90, 168, 90);
 }
 
-.vi{
+.vi {
   text-align: center;
 }
 
-.image-aboutus-banner{
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(https://images.pexels.com/photos/673649/pexels-photo-673649.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+.image-aboutus-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://images.pexels.com/photos/673649/pexels-photo-673649.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -60,23 +61,74 @@
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem;    
+  padding-bottom: 2.5rem;
 }
 
 #sticky-footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 4rem;      
-  background-color: rgb(114, 214, 114)!important;      
+  height: 4rem;
+  background-color: rgb(114, 214, 114) !important;
 }
 
-.btn-outline-green{
+.btn-outline-green {
   border-color: rgb(114, 214, 114);
-  color: rgb(114, 214, 114)
+  color: rgb(114, 214, 114);
 }
-.btn-outline-green:hover{
+.btn-outline-green:hover {
   border-color: rgb(114, 214, 114);
   color: white;
   background-color: rgb(114, 214, 114);
+}
+
+.bg-card-1 {
+  background-color: #fac74a;
+  border-color: white;
+}
+.btn-round-1 {
+  color: white;
+  background-color: #edae44;
+  border-radius: 35px;
+  border: 1px solid #edae44;
+}
+.btn-round-1:hover {
+  color: #edae44;
+  background-color: white;
+  border-radius: 35px;
+  border: 1px solid #edae44;
+}
+
+.bg-card-2 {
+  background-color: #b1e059;
+  border-color: white;
+}
+.btn-round-2 {
+  color: white;
+  background-color: #7fb21f;
+  border-radius: 35px;
+  border: 1px solid #7fb21f;
+}
+.btn-round-2:hover {
+  color: #7fb21f;
+  background-color: white;
+  border-radius: 35px;
+  border: 1px solid #7fb21f;
+}
+
+.bg-card-3 {
+  background-color: #4fcad9;
+  border-color: white;
+}
+.btn-round-3 {
+  color: white;
+  background-color: #6693c2;
+  border-radius: 35px;
+  border: 1px solid #6693c2;
+}
+.btn-round-3:hover {
+  color: #6693c2;
+  background-color: white;
+  border-radius: 35px;
+  border: 1px solid #6693c2;
 }
