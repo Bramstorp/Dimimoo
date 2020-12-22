@@ -70,3 +70,13 @@
   height: 4rem;      
   background-color: rgb(114, 214, 114)!important;      
 }
+
+.btn-outline-green{
+  border-color: rgb(114, 214, 114);
+  color: rgb(114, 214, 114)
+}
+.btn-outline-green:hover{
+  border-color: rgb(114, 214, 114);
+  color: white;
+  background-color: rgb(114, 214, 114);
+}
