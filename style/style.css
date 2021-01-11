@@ -1,6 +1,7 @@
 .nav-text {
   color: rgb(114, 214, 114);
   text-decoration: none;
+  font-family: 'Potta One', cursive;
 }
 .nav-text:hover {
   color: rgb(90, 168, 90);
@@ -9,6 +10,9 @@
 #logo {
   color: rgb(67, 124, 67);
   text-decoration: none;
+  font-size: 25px;
+  font-weight: 1000;
+  font-family: 'Potta One', cursive;
 }
 #logo:hover {
   color: rgb(46, 87, 46);
